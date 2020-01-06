@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+	background-color:gray;
+}
+.mainframe{background-color:white;}
+#myCarousel{margin-top:50px;}
+.slide{margin:auto; max-height:500px;}
+.fas.fa-angle-double-left {
+	top: 50%;  left: 50%; font-size: 50px;
+    transform: translate(-50%,-50%);
+    position: absolute;  color:brown;
+}
+.fas.fa-angle-double-right{
+	top: 50%;  left: 50%; font-size: 50px;
+    transform: translate(-50%,-50%);
+    position: absolute;  color:brown; 
+}
+
+.carousel-control.right{background:white;}
+.carousel-control.left{background:white;}
